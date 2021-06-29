@@ -1,7 +1,7 @@
 import { initializeProject } from './initialize-project'
+import inquirer from 'inquirer'
 
 export function cli(args) {
-
   if (!args.length) {
     return
   }
@@ -12,5 +12,17 @@ export function cli(args) {
     return
   }
 
-  initializeProject(projectName)
+  inquirer.prompt([
+    {
+      type: 'list',
+      message: `Select the framework you\'ll be using for ${ projectName }:`,
+      name: 'framework',
+      choices: ['React'],
+    }
+  ]).then(answers => {
+    const { framework } = answers
+    console.log(`You've selected ${ framework } (whihc makes sense because it's the only option!)`)
+    initializeProject(projectName)
+  })
+
 }
