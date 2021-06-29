@@ -1,10 +1,10 @@
 {
   "name": "@renci/create-renci-app",
-  "version": "0.1.1",
-  "description": "",
-  "main": "main.js",
+  "version": "0.2.0",
+  "description": "Bootstrap a React application with RENCI branding resources.",
+  "main": "index.js",
   "bin": {
-    "create-renci-app": "bin/create-renci-app"
+    "create-renci-app": "./index.js"
   },
   "publishConfig": {
     "access": "public"
@@ -12,7 +12,12 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "keywords": [],
+  "keywords": [
+    "react",
+    "starter",
+    "cli",
+    "renci"
+  ],
   "author": "",
   "license": "ISC",
   "dependencies": {

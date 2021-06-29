@@ -21,7 +21,8 @@ export function cli(args) {
     }
   ]).then(answers => {
     const { framework } = answers
-    console.log(`You've selected ${ framework } (whihc makes sense because it's the only option!)`)
+    console.log(`You've selected ${ framework }`)
+    console.log(`(which makes sense because it's currently the only option!)`)
     initializeProject(projectName)
   })
 
