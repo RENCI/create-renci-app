@@ -21,6 +21,7 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
+    "degit": "^2.8.4",
     "esm": "^3.2.25",
     "inquirer": "^8.1.1",
     "shelljs": "^0.8.4"
