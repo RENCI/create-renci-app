@@ -32,7 +32,7 @@ $ create-renci-app project-name
 2. The second option is to use [npx](https://nodejs.dev/learn/the-npx-nodejs-package-runner).
 
 ```bash
-$ npx @renci/create-react-app project-name
+$ npx @renci/create-renci-app project-name
 ```
 
 Each of the above methods will create a new React application based on [RENCI/react-starter](https://github.com/RENCI/react-starter). This application boilerplate contains an initial configuration common to the many of the web applications built at/by/for RENCI.
