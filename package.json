@@ -1,6 +1,6 @@
 {
   "name": "@renci/create-renci-app",
-  "version": "0.2.1",
+  "version": "0.3.0",
   "description": "Bootstrap a React application with RENCI branding resources.",
   "main": "index.js",
   "bin": {
@@ -21,6 +21,7 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
+    "degit": "^2.8.4",
     "esm": "^3.2.25",
     "inquirer": "^8.1.1",
     "shelljs": "^0.8.4"
