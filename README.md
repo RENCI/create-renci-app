@@ -52,25 +52,6 @@ The following are set up by default:
 
 In addition, this project will contain the branding resources for RENCI and UNC, which we also often require.
 
-### 🚧 Application Development
-
-Once your application is bootstrapped, you're ready to move into the `project-name` directory to begin development. Start a local development server from `path/to/project-name` by running `npm start`.
-
-Note that this development environment utilizes [hot-module-replacement](https://webpack.js.org/guides/hot-module-replacement/) and [react-refresh](https://github.com/pmmmwh/react-refresh-webpack-plugin) for optimal developer experience.
-
-
-### 🎁 Building for Production
-
-To build a production-ready `create-renci-app` application, run `npm run build` from the project directory. the bundled files will be exported to the `dist` directory.
-
-To build an easily debuggable production build, use `npm run build-dev`.
-
-
-### 📚 References
-
-- [React](https://reactjs.org/)
-- [Webpack](https://webpack.js.org/)
-
 ---
 
 ## Contributing
