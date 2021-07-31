@@ -106,3 +106,8 @@ $ which create-renci-app
 In the output from the above command, a successful symlink has your current working directory on the right-hand side of the `->` symbol.
 
 Now that this `link` in place, as you change and test code, the `create-renci-app` command can be run (from anywhere) on your machine to execute the code that lives in your development directory.
+
+### Changelog
+
+**0.3.0** : use degit to grab code
+**0.2.0** : add framework select when cli runs
