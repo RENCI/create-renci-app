@@ -5,10 +5,10 @@ Use this NPM command line module to bootstrap a React application, with RENCI br
 ### Quick Start
 
 ```bash
-$ npm i -g @renci/create-renci-app
-$ create-renci-app project-name
-$ cd project-name
-$ npm start
+npm i -g @renci/create-renci-app
+create-renci-app project-name
+cd project-name
+npm start
 ```
 
 ## Usage
@@ -20,19 +20,19 @@ There are two options to begin:
 1. Install `@renci/create-renci-app` globally with
 
 ```bash
-$ npm i -g @renci/create-renci-app
+npm i -g @renci/create-renci-app
 ```
 
 and use your newly installed `create-renci-app` to create a new application with the name `project-name` by executing the following command.
 
 ```bash
-$ create-renci-app project-name
+create-renci-app project-name
 ```
 
 2. The second option is to use [npx](https://nodejs.dev/learn/the-npx-nodejs-package-runner).
 
 ```bash
-$ npx @renci/create-renci-app project-name
+npx @renci/create-react-app project-name
 ```
 
 Each of the above methods will create a new React application based on [RENCI/react-starter](https://github.com/RENCI/react-starter). This application boilerplate contains an initial configuration common to the many of the web applications built at/by/for RENCI.
@@ -65,9 +65,9 @@ Clone this repo.
 
 ```bash
 # HTTPS
-$ git clone https://github.com/RENCI/create-renci-app.git
+git clone https://github.com/RENCI/create-renci-app.git
 # or SSH
-$ git clone git@github.com:RENCI/create-renci-app.git
+git clone git@github.com:RENCI/create-renci-app.git
 ```
 
 Commands from here on are from within the `create-renci-app` directory. 
@@ -75,13 +75,13 @@ Commands from here on are from within the `create-renci-app` directory.
 First, we tell Node to use the current directory's code when `create-renci-app` is invoked on your machine.
 
 ```bash
-$ npm link
+npm link
 ```
 
 Test this symlink was created as expected with `which`.
 
 ```bash
-$ which create-renci-app
+which create-renci-app
 ```
 
 In the output from the above command, a successful symlink has your current working directory on the right-hand side of the `->` symbol.
