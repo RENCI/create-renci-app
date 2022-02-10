@@ -11,7 +11,8 @@ export const initializeProject = projectName => {
   shell.cd(projectName)
 
   // console.log(`\n\t...cloning renci/react-starter`)
-  shell.exec(`degit https://github.com/RENCI/react-starter .`)
+  shell.exec(`git clone https://github.com/RENCI/react-starter . --depth=1`)
+  shell.exec(`rm -rf .git`)
   // console.log(`\n\t...initialize new git repo`)
   shell.exec(`git init`)
   // console.log(`\n\t...stage files`)
